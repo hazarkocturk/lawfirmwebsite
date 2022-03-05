@@ -4,6 +4,7 @@ import React from 'react';
 import Banner from './components/Banner';
 import Testimonials from './components/Testimonials';
 import Skills from './components/Skills';
+import Team from './components/Team';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Banner />
       <Testimonials />
       <Skills />
+      <Team />
     </div>
   );
 };

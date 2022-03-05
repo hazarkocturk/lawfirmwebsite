@@ -5,7 +5,7 @@ import { navigation } from '../data';
 
 const Nav = () => {
   return (
-    <nav className='hidden lg:flex'>
+    <nav className='hidden lg:flex z-10'>
       <ul className='lg:flex space-x-6 font-body font-semibold text-sm text-primary'>
         {navigation.map((item, index) => {
           return (
