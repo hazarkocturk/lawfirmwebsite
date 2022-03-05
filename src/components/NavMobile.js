@@ -11,7 +11,7 @@ const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='lg:hidden relative'>
+    <nav className='lg:hidden relative z-10'>
       {/* menu icon */}
       <a href='#' onClick={() => setIsOpen(true)}>
         <img src={BarsIcon} alt='' />
