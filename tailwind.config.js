@@ -29,7 +29,7 @@ module.exports = {
       },
 
       content: {
-        quote: 'url("img/quoteMark.png")',
+        quote: 'url("assets/img/quoteMark.png")',
       },
     },
   },

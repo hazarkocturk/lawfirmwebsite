@@ -1,7 +1,4 @@
-import React, { useRef, useState } from 'react';
-
-// import quoteMark image
-import quoteMarkImg from '../img/quoteMark.png';
+import React from 'react';
 
 // import testimonials data
 import { testimonials } from '../data.js';
