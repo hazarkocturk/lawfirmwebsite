@@ -19,7 +19,11 @@ module.exports = {
           hover: '#383956',
         },
 
-        accent: '#CF9455',
+        accent: {
+          DEFAULT: '#CF9455',
+          hover: '#BB864E',
+        },
+
         gray: '#766F66',
         white: '#ffffff',
       },

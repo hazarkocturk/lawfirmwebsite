@@ -16,6 +16,13 @@ import TeamMember1 from '../src/assets/img/lawyer1.png';
 import TeamMember2 from '../src/assets/img/lawyer2.png';
 import TeamMember3 from '../src/assets/img/lawyer3.png';
 
+// import social icons
+import FacebookIcon from '../src/assets/img/social/facebook.png';
+import TwitterIcon from '../src/assets/img/social/twitter.png';
+import InstagramIcon from '../src/assets/img/social/instagram.png';
+import YoutubeIcon from '../src/assets/img/social/youtube.png';
+import PinterestIcon from '../src/assets/img/social/pinterest.png';
+
 // navigation data
 export const navigation = [
   {
@@ -116,5 +123,24 @@ export const team = [
     position: 'Business Lawyer',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+];
+
+// social data
+export const social = [
+  {
+    icon: FacebookIcon,
+  },
+  {
+    icon: TwitterIcon,
+  },
+  {
+    icon: InstagramIcon,
+  },
+  {
+    icon: YoutubeIcon,
+  },
+  {
+    icon: PinterestIcon,
   },
 ];
