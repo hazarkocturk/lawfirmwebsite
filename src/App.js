@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Team from './components/Team';
 import Subscribe from './components/Subscribe';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Team />
       <Subscribe />
       <Contact />
+      <Footer />
     </div>
   );
 };
