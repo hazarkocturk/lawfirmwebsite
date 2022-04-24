@@ -19,8 +19,10 @@ const TestimonialSlider = () => {
   return (
     <>
       <Swiper
+        autoplay={true}
         pagination={{
           dynamicBullets: true,
+          clickable: true,
         }}
         modules={[Pagination]}
         className='mySwiper'
@@ -29,8 +31,8 @@ const TestimonialSlider = () => {
           const { text, name, image, position } = item;
           return (
             <SwiperSlide key={index}>
-              <div className='relative mt-[34px] before:content-quote'>
-                <div className='pl-[30px]'>
+              <div className='relative lg:mt-[34px] before:content-quote p-8'>
+                <div>
                   <p>{text}</p>
                   <div className='flex items-center mt-[18px] mb-8'>
                     <img src={image} alt='' />
