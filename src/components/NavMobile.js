@@ -7,15 +7,18 @@ import CloseIcon from '../assets/img/close.png';
 // import navigation data
 import { navigation } from '../data';
 
+// import Link
+import { Link } from 'react-scroll';
+
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className='lg:hidden relative z-10'>
       {/* menu icon */}
-      <a href='#' onClick={() => setIsOpen(true)}>
+      <button onClick={() => setIsOpen(true)}>
         <img src={BarsIcon} alt='' />
-      </a>
+      </button>
       {/* navigation */}
       <ul
         className={`${
@@ -23,17 +26,23 @@ const NavMobile = () => {
         } bg-primary fixed top-0 w-full h-screen text-white transition-all flex flex-col justify-center items-center space-y-8 text-lg`}
       >
         {/* close icon */}
-        <a
+        <button
           className='absolute top-6 left-6'
-          href='#'
           onClick={() => setIsOpen(false)}
         >
           <img src={CloseIcon} alt='' />
-        </a>
+        </button>
         {navigation.map((item, index) => {
           return (
             <li key={index}>
-              <a href='#'>{item.name}</a>
+              <Link
+                to={item.href}
+                activeClass='active'
+                spy={true}
+                offset={-220}
+              >
+                {item.name}
+              </Link>
             </li>
           );
         })}

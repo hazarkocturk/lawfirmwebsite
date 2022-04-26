@@ -15,7 +15,9 @@ const Nav = () => {
               <Link
                 to={item.href}
                 smooth={true}
-                offset={-70}
+                offset={-220}
+                activeClass='active'
+                spy={true}
                 className='hover:text-accent-hover transition-all duration-300'
                 href='#'
               >
