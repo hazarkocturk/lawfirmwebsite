@@ -27,15 +27,19 @@ import PinterestIcon from '../src/assets/img/social/pinterest.png';
 export const navigation = [
   {
     name: 'Home',
+    href: 'home',
   },
   {
     name: 'What we do',
+    href: 'skills',
   },
   {
     name: 'Our team',
+    href: 'team',
   },
   {
     name: 'Contact us',
+    href: 'contact',
   },
 ];
 

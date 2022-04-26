@@ -5,7 +5,7 @@ import { skills } from '../data';
 
 const Skills = () => {
   return (
-    <section className='lg:mb-[120px] bg-[#f8f3eca1] py-16'>
+    <section id='skills' className='lg:mb-[120px] bg-[#f8f3eca1] py-16'>
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
           What we do

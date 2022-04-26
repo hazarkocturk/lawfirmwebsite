@@ -5,7 +5,7 @@ import { team } from '../data';
 
 const Team = () => {
   return (
-    <section className='lg:mb-[120px]'>
+    <section id='team' className='lg:mb-[120px]'>
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
           Our Attourneys

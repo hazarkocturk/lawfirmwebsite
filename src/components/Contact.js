@@ -5,7 +5,10 @@ import { social } from '../data';
 
 const Contact = () => {
   return (
-    <section className='bg-primary text-white min-h-[732px] py-[64px]'>
+    <section
+      id='contact'
+      className='bg-primary text-white min-h-[732px] py-[64px]'
+    >
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
           Contact us
