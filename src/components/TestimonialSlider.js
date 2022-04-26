@@ -13,18 +13,21 @@ import 'swiper/css/pagination';
 import '../testimonialSlider.css';
 
 // import required modules
-import { Pagination } from 'swiper';
+import { Autoplay, Pagination } from 'swiper';
 
 const TestimonialSlider = () => {
   return (
     <>
       <Swiper
-        autoplay={true}
         pagination={{
           dynamicBullets: true,
           clickable: true,
         }}
-        modules={[Pagination]}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Pagination]}
         className='mySwiper'
       >
         {testimonials.map((item, index) => {
