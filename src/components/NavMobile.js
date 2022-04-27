@@ -14,7 +14,7 @@ const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='lg:hidden relative z-10'>
+    <nav className='lg:hidden relative z-20'>
       {/* menu icon */}
       <button onClick={() => setIsOpen(true)}>
         <img src={BarsIcon} alt='' />
