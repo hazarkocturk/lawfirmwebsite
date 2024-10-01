@@ -12,9 +12,10 @@ import Skill5 from '../src/assets/img/skills/skill5.png';
 import Skill6 from '../src/assets/img/skills/skill6.png';
 
 // import team images
-import TeamMember1 from '../src/assets/img/lawyer1.png';
-import TeamMember2 from '../src/assets/img/lawyer2.png';
-import TeamMember3 from '../src/assets/img/lawyer3.png';
+import TeamMember1 from '../src/assets/img/WhatsApp Image 2024-05-12 at 14.17.29 (1).jpeg';
+import TeamMember2 from '../src/assets/img/WhatsApp Image 2024-05-12 at 14.17.30 (1).jpeg';
+import TeamMember3 from '../src/assets/img/lawyer1.png';
+import TeamMember4 from '../src/assets/img/lawyer2.png';
 
 // import social icons
 import FacebookIcon from '../src/assets/img/social/facebook.png';
@@ -26,19 +27,19 @@ import PinterestIcon from '../src/assets/img/social/pinterest.png';
 // navigation data
 export const navigation = [
   {
-    name: 'Home',
+    name: 'Hakkımızda',
     href: 'home',
   },
   {
-    name: 'What we do',
+    name: 'Çalışma Alanlarımız',
     href: 'skills',
   },
   {
-    name: 'Our team',
+    name: 'Ekibimiz',
     href: 'team',
   },
   {
-    name: 'Contact us',
+    name: 'İletişim',
     href: 'contact',
   },
 ];
@@ -69,39 +70,39 @@ export const testimonials = [
 export const skills = [
   {
     icon: Skill1,
-    title: 'Corruption',
+    title: 'Ceza Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Ceza hukuku kapsamında suç ve cezalarla ilgili hukuki danışmanlık ve savunma hizmetleri sunuyoruz.',
   },
   {
     icon: Skill2,
-    title: 'Employment',
+    title: 'İş Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'İşçi ve işveren ilişkilerinde hakların korunması ve uyuşmazlıkların çözümü için hukuki destek sağlıyoruz.',
   },
   {
     icon: Skill3,
-    title: 'Real Estate',
+    title: 'Gayrimenkul Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Gayrimenkul alım satımı, kiralama ve projelendirme süreçlerinde uzman hukuki danışmanlık veriyoruz.',
   },
   {
     icon: Skill4,
-    title: 'Taxes',
+    title: 'Vergi Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Vergi hukuku alanında vergi ihtilafları ve yükümlülükler konusunda danışmanlık hizmetleri sunuyoruz.',
   },
   {
     icon: Skill5,
-    title: 'Corporate',
+    title: 'Şirketler Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Şirket kuruluşu, birleşme ve devralma işlemleri gibi ticari faaliyetlerde hukuki destek sağlıyoruz.',
   },
   {
     icon: Skill6,
-    title: 'Banking',
+    title: 'Bankacılık ve Finans Hukuku',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Finansal işlemler, kredi sözleşmeleri ve bankacılık alanında hukuki danışmanlık veriyoruz.',
   },
 ];
 
@@ -109,22 +110,29 @@ export const skills = [
 export const team = [
   {
     image: TeamMember1,
-    name: 'Jane William',
-    position: 'Band & Financial Lawyer',
+    name: 'Ülkü Koçtürk',
+    position: 'Kurucu Avukat',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     image: TeamMember2,
-    name: 'Andrea Collins',
-    position: 'Family Lawyer',
+    name: 'Mehmet Şahin',
+    position: 'Kurucu Avukat',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     image: TeamMember3,
-    name: 'John Smith',
-    position: 'Business Lawyer',
+    name: 'Ayşegül Bulut Şahin',
+    position: 'Avukat',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
+    image: TeamMember4,
+    name: 'Beyza Arslan',
+    position: 'Avukat',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },

@@ -11,7 +11,7 @@ const Contact = () => {
     >
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
-          Contact us
+          İletişim
         </h2>
         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
@@ -20,15 +20,15 @@ const Contact = () => {
 
         {/* form */}
         <form className='px-8 lg:px-0 max-w-[600px] mx-auto flex flex-col space-y-6 mb-[46px]'>
-          <input className='form-control' type='text' placeholder='Full name' />
+          <input className='form-control' type='text' placeholder='Ad Soyad' />
           <input
             className='form-control'
             type='text'
-            placeholder='Email address'
+            placeholder='Email adresi'
           />
-          <textarea className='textarea' placeholder='Message'></textarea>
+          <textarea className='textarea' placeholder='Mesajınız'></textarea>
           <button className='btn bg-accent hover:bg-accent-hover transition-all'>
-            Send Message
+            Mesaj Gönder
           </button>
         </form>
 
